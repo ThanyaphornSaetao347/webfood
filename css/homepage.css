@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap'); /* font of text in img */
+
+body{
+    font-family: "Quicksand", sans-serif;
+    margin-left: 8%;
+}
+
+/* navbar */
+.head{
+    display: flex;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    font-family: "DM Serif Text", serif;
+}
+.logo ul{
+    display: flex;
+    gap: 100px;
+    margin-top: 35px;
+    margin-left: 65px;
+    list-style: none;     /* remove bullets or numbering */
+    font-family: "Nanum Myeongjo", serif;
+}
+a{
+    text-decoration: none;   /* remove the underline */
+    color: black;
+}
+input{
+    font-family: "Nanum Myeongjo", serif;
+    width: 250px;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 85px;
+    padding: 10px 10px 10px 15px;
+    border: 2px solid black;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>') no-repeat;
+    /* line 46 "background" this line change color of cross(x) in search */
+    cursor: pointer;
+    position: absolute;
+    right: 10px; /* Adjust according to your input padding */
+}
+
+/* jumbo centent */
+.jumbo-content {
+    position: relative;
+    text-align: center;
+    color: white; /* Adjust text color as needed */
+}
+.jumbo-content img {
+    width: 85%;
+    height: 100%;
+    margin: 80px;
+}
+.jumbo-text {
+    position: absolute;
+    top: 35%;
+    left: 20.5%;
+    transform: translate(-50%, -50%); /* top: 50%, left: 50% */
+    font-size: 18px; /* Adjust font size as needed */
+    font-family: "DM Serif Text", serif; /* Match the font-family */
+    color: black;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+.jumbo-text p2{
+    position: absolute;
+    font-size: 16px;
+    left: 40%;
+}
+button{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 77%;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-bottom: 20%;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "DM Serif Text", serif;
+    text-transform: uppercase; /* make text is UPPER case */
+    letter-spacing: 1px;
+    background-color: transparent; /* make the background clear */
+
+}
+
+/* example content all recipes of kind */
+.example{
+    /* display: block; */
+    font-family: "Nanum Myeongjo", serif;
+    /* position: absolute; */
+}
+.example h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.example h4{
+    position: relative;
+    font-size: 16px;
+    text-transform: capitalize;
+    left: 5%;
+}
+.example-contioner{
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+.example-content{
+    left: 8%;
+}
+.example-savory{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+
+}
+.example-item{
+    border: 1px solid black;
+}
+img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
